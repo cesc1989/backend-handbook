@@ -1,13 +1,13 @@
 # Table of Contents
 
-- Setting Up Server
+- [Setting Up Server](setup/README.md)
 	- Linode
 	- AWS
-- Install Dependencies
-- Configure Tools
+- [Install Dependencies](dependencies/README.md)
+- [Configure Tools](configure-tools/README.md)
 	- Jenkins
-- AWS
-- Additional Resources
+- [AWS](aws/README.md)
+- [Additional Resources](additional/README.md)
 	- Books
 	- Guides
 	- Links Repository
