@@ -1,4 +1,4 @@
-# Backend Book
+# Backend Handbook
 
 The purpose of this book is to serve as a guide for setting up, mainly, Ubuntu 14.04 servers with most of the popular dependencies, including:
 
