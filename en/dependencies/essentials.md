@@ -12,7 +12,7 @@ Others are just useful software that should be installed because some guides tel
 
 ## How to install them?
 
-Create a `bash` file and add the following contents:
+Create a `bash` file and add the following content:
 
 ```bash
 #!/bin/bash

@@ -5,10 +5,10 @@
   - AWS
 - [Install Dependencies](dependencies/README.md)
   - [Essentials](dependencies/essentials.md)
-  - Database & Datastores
-    - PostgreSQL
-    - MySQL
-    - Redis
+  - [Database & Datastores](dependencies/database-datastores.md)
+    - [PostgreSQL](dependencies/postgresql.md)
+    - [MySQL](dependencies/mysql.md)
+    - [Redis](dependencies/redis.md)
   - Web Server & App Server
     - Nginx
     - Passenger + Nginx
