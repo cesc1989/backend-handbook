@@ -4,6 +4,20 @@
   - Linode
   - AWS
 - [Install Dependencies](dependencies/README.md)
+  - [Essentials](dependencies/essentials.md)
+  - Database & Datastores
+    - PostgreSQL
+    - MySQL
+    - Redis
+  - Web Server & App Server
+    - Nginx
+    - Passenger + Nginx
+  - Others
+    - NodeJS
+    - RVM
+    - WKHTMLTOPDF
+    - Image Magick
+    - Jenkins
 - [Configure Tools](configure-tools/README.md)
   - Jenkins
   - Vagrant
