@@ -11,4 +11,4 @@
 - [Additional Resources](additional/README.md)
   - [Books](additional/books.md)
   - [Guides](additional/guides.md)
-  - [Links Repository](additional/links.md)
+  - [Links](additional/links.md)
