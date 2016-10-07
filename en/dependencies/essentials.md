@@ -19,10 +19,11 @@ Create a `bash` file and add the following contents:
 
 apt-get update
 apt-get -y install build-essential curl git-core python-software-properties htop vim libfontconfig1 libgmp-dev
-
 apt-get -y install zlib1g-dev libssl-dev libreadline6-dev libyaml-dev libncurses5-dev libxml2-dev libxslt-dev libsqlite3-dev
 ```
-> *Note*
-> Separated the software to install in two lines for readability.
+> **NOTE**
+> Separated the software to install into two `apt-get` lines for readability.
+>
+> `-y` flag is for accepting the prompt without needing the user to type y/N
 
 ## Docs
