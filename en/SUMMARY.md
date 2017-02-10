@@ -10,8 +10,8 @@
     - [MySQL](dependencies/mysql.md)
     - [Redis](dependencies/redis.md)
   - [Web Server & App Server](dependencies/web-server-app-server.md)
-    - [Nginx](nginx.md)
-    - [Passenger + Nginx](passenger-and-nginx.md)
+    - [Nginx](dependencies/nginx.md)
+    - [Passenger + Nginx](dependencies/passenger-and-nginx.md)
   - Others
     - NodeJS
     - RVM
