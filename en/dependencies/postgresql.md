@@ -16,8 +16,8 @@ Create a `bash` file and add the following content:
 #!/bin/bash
 
 apt-get update
-apt-get -y install postgresql
 apt-get -y install libpq-dev
+apt-get -y install postgresql
 ```
 
 ## Docs
