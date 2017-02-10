@@ -12,12 +12,13 @@
   - [Web Server & App Server](dependencies/web-server-app-server.md)
     - [Nginx](dependencies/nginx.md)
     - [Passenger + Nginx](dependencies/passenger-and-nginx.md)
-  - Others
-    - NodeJS
-    - RVM
-    - WKHTMLTOPDF
-    - Image Magick
-    - Jenkins
+  - [Others](dependencies/others/others.md)
+    - [NodeJS](dependencies/others/nodejs.md)
+    - [NVM](dependencies/others/nvm.md)
+    - [RVM](dependencies/others/rvm.md)
+    - [WKHTMLTOPDF](dependencies/others/wkhtmltopdf.md)
+    - [Image Magick](dependencies/others/image-magick.md)
+    - [Jenkins](dependencies/others/jenkins.md)
 - [Configure Tools](configure-tools/README.md)
   - Jenkins
   - Vagrant
