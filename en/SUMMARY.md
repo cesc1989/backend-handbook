@@ -9,9 +9,9 @@
     - [PostgreSQL](dependencies/postgresql.md)
     - [MySQL](dependencies/mysql.md)
     - [Redis](dependencies/redis.md)
-  - Web Server & App Server
-    - Nginx
-    - Passenger + Nginx
+  - [Web Server & App Server](dependencies/web-server-app-server.md)
+    - [Nginx](nginx.md)
+    - [Passenger + Nginx](passenger-and-nginx.md)
   - Others
     - NodeJS
     - RVM
