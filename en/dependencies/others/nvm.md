@@ -15,3 +15,4 @@ Create a `bash` file and add the following content:
 
 ## Docs
 
+See [github project's page](https://github.com/creationix/nvm) for more docs

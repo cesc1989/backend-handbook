@@ -22,6 +22,8 @@ Some links that could be useful to further advance your Linux or backend tools/l
 > CD = Continuous Delivery
 > CD = Continuous Deployment
 
+- [Install RVM in Vagrant](http://rvm.io/integration/vagrant)
+
 ## Concepts
 
 - [The Tao of Programming](http://www.mit.edu/~xela/tao.html)
