@@ -11,7 +11,7 @@ The purpose of this book is to serve as a guide for setting up Ubuntu 14.04 serv
 * Development libraries
 * etc
 
-By using this guide, you would be able to setup brand new servers from scratch, going from creating system users to deploying Ruby on Rails(most of the time) applications.
+Using this guide you would be able to setup servers from scratch, going from creating system users to deploying Ruby on Rails applications.
 
 See [Summary](SUMMARY.md) for Table of Contents.
 
