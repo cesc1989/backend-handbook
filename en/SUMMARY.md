@@ -1,8 +1,8 @@
 # Table of Contents
 
 - [Setting Up Server](setup/README.md)
-  - Linode
-  - AWS
+  - [Linode](setup/linode.md)
+  - [AWS](setup/aws.md)
 - [Install Dependencies](dependencies/README.md)
   - [Essentials](dependencies/essentials.md)
   - [Database & Datastores](dependencies/database-datastores.md)
@@ -20,8 +20,8 @@
     - [Image Magick](dependencies/others/image-magick.md)
     - [Jenkins](dependencies/others/jenkins.md)
 - [Configure Tools](configure-tools/README.md)
-  - Jenkins
-  - Vagrant
+  - [Jenkins](configure-tools/jenkins.md)
+  - [Vagrant](configure-tools/vagrant.md)
 - [AWS](aws/README.md)
 - [Additional Resources](additional/README.md)
   - [Books](additional/books.md)
