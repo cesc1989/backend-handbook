@@ -106,3 +106,61 @@ Online docs:
 - [ssh](https://linux.die.net/man/1/ssh)
 - [ssh-keygen](https://linux.die.net/man/1/ssh-keygen)
 - [scp](https://linux.die.net/man/1/scp)
+
+## Harden SSH Service from Configuration File
+
+Leaving the default configuration for the ssh service is not recommendable because it leaves your server open to attacks from hackers or anyone with the intention of breaking your machine.
+
+By modifying some settings in the `sshd_config` file your server will be more secured though not impenetrable, but something is better than nothing.
+
+The `sshd_config` is located (in Ubuntu 14.04) at `/etc/ssh/sshd_config`. The next commands suppose you are editing that file.
+
+### Open the Configuration File
+
+```
+$ sudo nano /etc/ssh/sshd_config
+```
+
+> Following settings is *how* the file settings should look. If you find them this way, it is all ok.
+
+> If you are using nano editor you can find lines in a file using the CTRL + W key combination and typing the desire word.
+
+### Change the Default Port
+
+```
+Port [PORT-NUMBER]
+```
+
+> 22 is the default. Change to a 5 digit number.
+
+### Deactive Root Access
+
+```
+PermitRootLogin no
+```
+
+### Deactivate Password Access
+
+```
+PasswordAuthentication no
+```
+
+### Restart SSH Service Configuration
+
+Exit the nano editor with CTRL + O (save changes) & CTRL + X.
+
+```
+$ sudo service ssh restart
+```
+
+### References
+
+In the man pages, as always :)
+
+```
+$ man ssh
+```
+
+Online docs:
+
+- [sshd_config](https://linux.die.net/man/5/sshd_config)
