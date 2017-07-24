@@ -1,6 +1,8 @@
 # Backend Handbook
 
-The purpose of this book is to serve as a guide for setting up Ubuntu 14.04 servers with many dependencies including:
+The purpose of this handbook is to serve as a guide for provisioning and setup Ubuntu 14.04 servers.
+
+Configurable software includes:
 
 * PostgreSQL
 * RVM
@@ -11,7 +13,7 @@ The purpose of this book is to serve as a guide for setting up Ubuntu 14.04 serv
 * Development libraries
 * etc
 
-Using this guide you would be able to setup servers from scratch, going from creating system users to deploying Ruby on Rails applications.
+Using this guide you would be able to setup servers from scratch, from creating system users to deploying Ruby on Rails applications.
 
 See [Summary](SUMMARY.md) for Table of Contents.
 
