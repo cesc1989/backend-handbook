@@ -1,0 +1,3 @@
+setup/README.md
+setup/linode.md
+setup/aws.md
