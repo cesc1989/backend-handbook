@@ -15,6 +15,8 @@ Configurable software includes:
 
 Using this guide you would be able to setup servers from scratch, from creating system users to deploying Ruby on Rails applications.
 
-See [Summary](SUMMARY.md) for Table of Contents.
+## Reading
 
 This book is best read in [Gitbook](https://cesc1989.gitbooks.io/backend-book/content/)
+
+Coming soon, Leanpub link

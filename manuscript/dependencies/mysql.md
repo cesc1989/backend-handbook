@@ -1,14 +1,14 @@
-# MySQL
+### MySQL
 
-## What is this?
+#### What is this?
 
 MySQL is a RDBMS (Relation Database Management System).
 
-## What is this for?
+#### What is this for?
 
 Storing and accessing data through the Structured Query Language (SQL).
 
-## How to install it?
+#### How to install it?
 
 Create a `bash` file and add the following content:
 
@@ -21,6 +21,6 @@ apt-get -y install mysql-server-5.5
 apt-get -f install mysql-server
 ```
 
-## Docs
+#### Docs
 
 All MySQL documentation and manuals can be found in their [official page](http://dev.mysql.com/doc/).

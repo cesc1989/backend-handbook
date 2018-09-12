@@ -1,1 +1,0 @@
-# AWS - Taming The Mamoth

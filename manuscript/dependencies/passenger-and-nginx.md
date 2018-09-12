@@ -1,15 +1,15 @@
-# Phusion Passenger
+### Phusion Passenger
 
-## What is this?
+#### What is this?
 
 > Passenger is an application server that allows you to securely operate web apps, microservices & APIs with outstanding reliability, performance and control. By acting as a process manager, reverse proxy and by providing operations tools, Passenger enables you to quickly launch and easily maintain Ruby, Node.js, Python and Meteor apps.
 >
 > [Phussion Passenger](https://www.phusionpassenger.com/business_advantages)
 
-## What is this for?
+#### What is this for?
 
 
-## How to install it?
+#### How to install it?
 
 Create a `bash` file and add the following content:
 
@@ -31,6 +31,6 @@ A) uncomment lines `passenger_root` and `passenger_ruby` in `/etc/nginx/nginx.co
 
 B) Edit `/etc/nginx/nginx.conf` and uncomment `include /etc/nginx/passenger.conf;` by removing the `#` character in the beginning of the line and then restart nginx with `sudo service nginx restart`.
 
-## Docs
+#### Docs
 
 Phussion Passenger docs can be found [here](https://www.phusionpassenger.com/library/).

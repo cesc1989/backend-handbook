@@ -1,4 +1,4 @@
-# Linode
+## Linode
 
 Configure an Ubuntu machine in Linode requires you to set it up from the very beginning. You'd need to:
 
@@ -8,11 +8,11 @@ Configure an Ubuntu machine in Linode requires you to set it up from the very be
 - Activate firewall
 - More...
 
-## Create New non-root user
+### Create New non-root user
 
 A non-root user is a system user that can log in to the server but still issue root commands preceding them with `sudo` and inputing her password.
 
-### Add a user
+#### Add a user
 
 ```
 # adduser [USERNAME]
@@ -31,7 +31,7 @@ Example:
 # usermod -a -G sudo deployer
 ```
 
-### References
+#### References
 
 You can always see the man pages for previous commands to learn more about them or reading their docs online.
 
@@ -45,11 +45,11 @@ Online documentation:
 - [`adduser`](https://linux.die.net/man/8/adduser)
 - [`usermod`](https://linux.die.net/man/8/usermod)
 
-## Set up User SSH Access
+### Set up User SSH Access
 
 In order to access a Linode machine from your development computer (or any other machine) you need a SSH key that identifies a given user on a server. Using ssh authentication is certainly more secure than password authentication.
 
-### Generate a New SSH Key
+#### Generate a New SSH Key
 
 Using a computer with Linux or macOS:
 
@@ -91,7 +91,7 @@ $ ssh [USERNAME]@[SERVER-IP-ADDRESS]
 $ mv id_rsa.pub .ssh/authorized_keys
 ```
 
-### References
+#### References
 
 See man pages for more details in the previously used commands.
 
@@ -107,7 +107,7 @@ Online docs:
 - [ssh-keygen](https://linux.die.net/man/1/ssh-keygen)
 - [scp](https://linux.die.net/man/1/scp)
 
-## Harden SSH Service from Configuration File
+### Harden SSH Service from Configuration File
 
 Leaving the default configuration for the ssh service is not recommendable because it leaves your server open to attacks from hackers or anyone with the intention of breaking your machine.
 
@@ -115,7 +115,7 @@ By modifying some settings in the `sshd_config` file your server will be more se
 
 The `sshd_config` is located (in Ubuntu 14.04) at `/etc/ssh/sshd_config`. The next commands suppose you are editing that file.
 
-### Open the Configuration File
+#### Open the Configuration File
 
 ```
 $ sudo nano /etc/ssh/sshd_config
@@ -125,7 +125,7 @@ $ sudo nano /etc/ssh/sshd_config
 
 > If you are using nano editor you can find lines in a file using the CTRL + W key combination and typing the desire word.
 
-### Change the Default Port
+#### Change the Default Port
 
 ```
 Port [PORT-NUMBER]
@@ -133,19 +133,19 @@ Port [PORT-NUMBER]
 
 > 22 is the default. Change to a 5 digit number.
 
-### Deactive Root Access
+#### Deactive Root Access
 
 ```
 PermitRootLogin no
 ```
 
-### Deactivate Password Access
+#### Deactivate Password Access
 
 ```
 PasswordAuthentication no
 ```
 
-### Restart SSH Service Configuration
+#### Restart SSH Service Configuration
 
 Exit the nano editor with CTRL + O (save changes) & CTRL + X.
 
@@ -153,9 +153,9 @@ Exit the nano editor with CTRL + O (save changes) & CTRL + X.
 $ sudo service ssh restart
 ```
 
-### References
+#### References
 
-In the man pages, as always :)
+In the man pages, as always.
 
 ```
 $ man ssh
