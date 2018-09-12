@@ -1,6 +1,6 @@
-#### NodeJS
+### NodeJS
 
-##### What is this?
+#### What is this?
 
 NodeJS is an open source and cross platform JavaScript runtime environment for developing server tools and/or web applications.
 
@@ -8,11 +8,11 @@ NodeJS is an open source and cross platform JavaScript runtime environment for d
 >
 > [Wikipedia](https://en.wikipedia.org/wiki/Node.js)
 
-##### What is this for?
+#### What is this for?
 
 Because of it non-blocking and event-driven architecture real time communication applications, browser games and web applications that demand high throughput, scalability and concurrence can be designed and develop using nodejs.
 
-##### How to install it?
+#### How to install it?
 
 Create a `bash` file and add the following content:
 
@@ -24,6 +24,6 @@ apt-get update
 apt-get -y install nodejs
 ```
 
-##### Docs
+#### Docs
 
 NodeJS documentation can be found [here](https://nodejs.org/en/docs/)

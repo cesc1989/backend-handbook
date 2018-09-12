@@ -1,17 +1,17 @@
-### Links, Resources
+## Links, Resources
 
 Some links that could be useful to further advance your Linux or backend tools/languages knowledge. The list can include repos, tutorials, gists, etc.
 
-#### Linux
+### Linux
 
 - [Bash Scripting Tutorial](http://ryanstutorials.net/bash-scripting-tutorial/)
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
-#### Server
+### Server
 
 - [Server Setups](https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application)
 
-#### Others
+### Others
 
 - [LastPass Secure Password Generator](https://lastpass.com/generatepassword.php)
 - [Site Reliability Engineering Links](https://github.com/dastergon/awesome-sre)
@@ -24,7 +24,7 @@ Some links that could be useful to further advance your Linux or backend tools/l
 
 - [Install RVM in Vagrant](http://rvm.io/integration/vagrant)
 
-#### Concepts
+### Concepts
 
 - [The Tao of Programming](http://www.mit.edu/~xela/tao.html)
 - [The Twelve Factor App](https://12factor.net/)

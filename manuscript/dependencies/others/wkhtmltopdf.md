@@ -1,12 +1,12 @@
-#### WKHTMLTOPDF
+### WKHTMLTOPDF
 
-##### What is this?
+#### What is this?
 
 WKHTMLTOPDF is a command line tool for rendering HTML docs into PDF. This utility runs headless, meaning it needs no GUI to be operated or used.
 
-##### What is this for?
+#### What is this for?
 
-##### How to install it?
+#### How to install it?
 
 Create a `bash` file and add the following content:
 
@@ -26,6 +26,6 @@ echo "Testing"
 wkhtmltopdf http://www.google.com google.pdf
 ```
 
-##### Docs
+#### Docs
 
 You can find a link to WKHTMLTOPDF docs [here](http://wkhtmltopdf.org/docs.html)

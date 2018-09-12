@@ -1,4 +1,4 @@
-### Libraries and moarrr
+## Libraries and moarrr
 
 This section covers installation of some specific dependencies, libraries, software or stuff that some application might need.
 

@@ -1,14 +1,13 @@
-# Redis
+### Redis
 
-## What is this?
+#### What is this?
 
 Redis is an [in-memory](https://en.wikipedia.org/wiki/In-memory_database) [data structure](https://en.wikipedia.org/wiki/Data_structure) store that can be used as a database, cache and/or message broker.
 
-## What is this for?
+#### What is this for?
 
 
-
-## How to install it?
+#### How to install it?
 
 Create a `bash` file and add the following content:
 
@@ -29,6 +28,6 @@ sed -ie 's/# bind 127.0.0.1/bind 127.0.0.1/g' /etc/redis/6379.conf
 service redis_6379 restart
 ```
 
-## Docs
+#### Docs
 
 You can find all redis documentation in its [official page](http://redis.io/documentation).

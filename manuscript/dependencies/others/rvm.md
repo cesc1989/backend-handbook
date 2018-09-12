@@ -1,12 +1,12 @@
-#### RVM
+### RVM
 
-##### What is this?
+#### What is this?
 
 Easy, manage (install, uninstall, use) different ruby versions just a few commands away.
 
-##### What is this for?
+#### What is this for?
 
-##### How to install it?
+#### How to install it?
 
 Create a `bash` file and add the following content:
 
@@ -19,7 +19,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 \curl -sSL https://get.rvm.io | bash -s stable
 ```
 
-###### Bonus: install ruby
+##### Bonus: install ruby
 
 After installing RVM, you can proceed installing ruby:
 
@@ -44,6 +44,6 @@ echo "Install bundler"
 gem install bundler --no-rdoc --no-ri
 ```
 
-##### Docs
+#### Docs
 
 Find everything about RVM in its [official site](http://rvm.io/)

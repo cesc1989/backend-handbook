@@ -1,11 +1,10 @@
 setup/README.md
 setup/linode.md
-setup/aws.md
 
 dependencies/README.md
 dependencies/essentials.md
 
-dependencies/dependencies/database-datastores.md
+dependencies/database-datastores.md
 dependencies/postgresql.md
 dependencies/mysql.md
 dependencies/redis.md
