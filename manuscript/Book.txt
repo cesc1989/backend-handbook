@@ -1,31 +1,31 @@
-setup/README.md
-setup/linode.md
+01-setup/01-main.md
+01-setup/02-linode.md
 
-dependencies/README.md
-dependencies/essentials.md
+02-dependencies/01-main.md
+02-dependencies/02-essentials.md
 
-dependencies/database-datastores.md
-dependencies/postgresql.md
-dependencies/mysql.md
-dependencies/redis.md
+02-dependencies/03-database-datastores.md
+02-dependencies/04-postgresql.md
+02-dependencies/05-mysql.md
+02-dependencies/06-redis.md
 
-dependencies/web-server-app-server.md
-dependencies/nginx.md
-dependencies/passenger-and-nginx.md
+02-dependencies/07-web-server-app-server.md
+02-dependencies/08-nginx.md
+02-dependencies/09-passenger-and-nginx.md
 
-dependencies/others/others.md
-dependencies/others/nodejs.md
-dependencies/others/nvm.md
-dependencies/others/rvm.md
-dependencies/others/wkhtmltopdf.md
-dependencies/others/image-magick.md
-dependencies/others/jenkins.md
+02-dependencies/50-others/01-others.md
+02-dependencies/50-others/02-nodejs.md
+02-dependencies/50-others/03-nvm.md
+02-dependencies/50-others/04-rvm.md
+02-dependencies/50-others/05-wkhtmltopdf.md
+02-dependencies/50-others/06-image-magick.md
+02-dependencies/50-others/07-jenkins.md
 
-configure-tools/README.md
-configure-tools/jenkins.md
-configure-tools/vagrant.md
+03-configure-tools/01-main.md
+03-configure-tools/02-jenkins.md
+03-configure-tools/03-vagrant.md
 
-additional/README.md
-additional/books.md
-additional/guides.md
-additional/links.md
+04-additional/01-main.md
+04-additional/02-books.md
+04-additional/03-guides.md
+04-additional/04-links.md
