@@ -28,4 +28,4 @@ wkhtmltopdf http://www.google.com google.pdf
 
 #### Docs
 
-You can find a link to WKHTMLTOPDF docs [here](http://wkhtmltopdf.org/docs.html)
+See complete WKHTMLTOPDF docs [in the project page](http://wkhtmltopdf.org/docs.html)

@@ -26,4 +26,4 @@ apt-get -y install nodejs
 
 #### Docs
 
-NodeJS documentation can be found [here](https://nodejs.org/en/docs/)
+NodeJS documentation can be found in [the official site](https://nodejs.org/en/docs/)

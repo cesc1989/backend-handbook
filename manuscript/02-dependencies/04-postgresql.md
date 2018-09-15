@@ -22,4 +22,4 @@ apt-get -y install postgresql
 
 #### Docs
 
-A full list of PostgreSQL manuals can be found [here](https://www.postgresql.org/docs/manuals/).
+A full list of PostgreSQL manuals can be found [their official site](https://www.postgresql.org/docs/manuals/).

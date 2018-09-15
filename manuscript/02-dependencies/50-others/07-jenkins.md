@@ -23,4 +23,4 @@ sudo apt-get -y install jenkins
 
 #### Docs
 
-See Jenkins documentation [here](https://jenkins.io/doc/)
+See Jenkins documentation [in the official web site](https://jenkins.io/doc/)

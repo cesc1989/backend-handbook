@@ -33,4 +33,4 @@ echo "Image magick installation is now completed... Hopefully"
 
 #### Docs
 
-More documentation about image magick can be found [here](http://www.imagemagick.org/script/resources.php)
+More documentation about image magick can be found [the official site](http://www.imagemagick.org/script/resources.php)

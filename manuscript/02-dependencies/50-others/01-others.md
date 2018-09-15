@@ -2,8 +2,8 @@
 
 This section covers installation of some specific dependencies, libraries, software or stuff that some application might need.
 
-- [WKHTMLTOPDF](wkhtmltopdf.md) for generating PDF files
-- [Image Magick](image-magick.md) for manipulating image files
-- [Jenkins](jenkins.md) for continuous integration
-- [RVM](rvm.md) for managing ruby versions
-- [NVM](nvm.md) for managing nodejs versions
+- WKHTMLTOPDF for generating PDF files from HTML pages
+- Image Magick for manipulating image files
+- Jenkins for continuous integration
+- RVM(Ruby Version Manager) for managing Ruby versions
+- NVM(Node Version Manager) for managing Node versions
