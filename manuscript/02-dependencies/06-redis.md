@@ -6,12 +6,17 @@ Redis is an [in-memory](https://en.wikipedia.org/wiki/In-memory_database) [data 
 
 #### What is this for?
 
+Regarding Ruby on Rails applications, Redis can be used as a database for storing background jobs data. Sidekiq is a popular gem that leverages Redis to work.
+
+You can also use a Redis as a cache or message broker, however, solutions like RabbitMQ are better suited for this job as there have been issues about Redis losing data.
 
 #### How to install it?
 
 Create a `bash` file and add the following content:
 
 ```bash
+$ nano install_redis.sh
+
 #!/bin/bash
 
 apt-get update
@@ -28,6 +33,16 @@ sed -ie 's/# bind 127.0.0.1/bind 127.0.0.1/g' /etc/redis/6379.conf
 service redis_6379 restart
 ```
 
+then run the instructions in the file
+
+```bash
+$ sudo bash install_redis.sh
+```
+
+and wait for redis to be installed on your machine.
+
 #### Docs
 
 You can find all redis documentation in its [official page](http://redis.io/documentation).
+
+Read more about [Redis feautures](https://redislabs.com/redis-features/redis).
