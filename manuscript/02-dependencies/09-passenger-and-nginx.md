@@ -4,10 +4,17 @@
 
 > Passenger is an application server that allows you to securely operate web apps, microservices & APIs with outstanding reliability, performance and control. By acting as a process manager, reverse proxy and by providing operations tools, Passenger enables you to quickly launch and easily maintain Ruby, Node.js, Python and Meteor apps.
 >
-> [Phussion Passenger](https://www.phusionpassenger.com/business_advantages)
+> [Phussion Passenger](https://www.phusionpassenger.com/)
 
 #### What is this for?
 
+Let's try to define first what is an application server.
+
+In one side we have web servers which are normally used for serving static content via the HTTP protocol.
+
+In the other side, we got applications servers which can also do the job of a web server and do more things. The main difference(when both use no extra plugins) is that app servers can server dynamic content via the HTTP protocol or others.
+
+In the case of Passenger, its job is to handle business logic in applications coded in the supported languages.
 
 #### How to install it?
 
@@ -33,4 +40,4 @@ B) Edit `/etc/nginx/nginx.conf` and uncomment `include /etc/nginx/passenger.conf
 
 #### Docs
 
-Phussion Passenger docs can be found [here](https://www.phusionpassenger.com/library/).
+See Phussion Passenger [extensive documentation](https://www.phusionpassenger.com/library/) for more help.
