@@ -15,14 +15,40 @@ Others are just useful software that should be installed because some guides tel
 Create a `bash` file and add the following content:
 
 ```bash
+$ nano install_basic_dependencies.sh
+
+File: install_basic_dependencies.sh
+
 #!/bin/bash
 
 apt-get update
-apt-get -y install build-essential curl git-core python-software-properties htop vim libfontconfig1 libgmp-dev
-apt-get -y install zlib1g-dev libssl-dev libreadline6-dev libyaml-dev libncurses5-dev libxml2-dev libxslt-dev libsqlite3-dev
+apt-get -y install \
+  build-essential \
+  curl \
+  git-core \
+  python-software-properties \
+  htop \
+  vim \
+  libfontconfig1 \
+  libgmp-dev \
+  zlib1g-dev \
+  libssl-dev \
+  libreadline6-dev \
+  libyaml-dev \
+  libncurses5-dev \
+  libxml2-dev \
+  libxslt-dev \
+  libsqlite3-dev
 ```
+
+and run it
+
+```bash
+$ sudo bash install_basic_dependencies.sh
+```
+
 > **NOTE**
-> Separated the software to install into two `apt-get` lines for readability.
+> Separated the software list to install with continuation lines for readability.
 >
 > `-y` flag is for accepting the prompt without needing the user to type y/N
 
