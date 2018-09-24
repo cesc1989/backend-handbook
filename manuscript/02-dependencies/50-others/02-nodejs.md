@@ -14,7 +14,7 @@ Because of it non-blocking and event-driven architecture real time communication
 
 #### How to install it?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_nodejs.sh` and add the following content:
 
 ```bash
 #!/bin/bash
@@ -22,6 +22,12 @@ Create a `bash` file and add the following content:
 apt-add-repository ppa:chris-lea/node.js
 apt-get update
 apt-get -y install nodejs
+```
+
+run the file
+
+```bash
+$ sudo bash install_nodejs.sh
 ```
 
 #### Docs

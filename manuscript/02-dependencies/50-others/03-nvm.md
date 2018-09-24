@@ -4,7 +4,7 @@ Node Version Manager
 
 #### What is this?
 
-By using NVM you can manage (install, uninstall, use) different NodeJS versions just a few commands away.
+By using NVM you can manage(install, uninstall, use) different NodeJS versions just a few commands away.
 
 #### What is this for?
 
@@ -16,13 +16,9 @@ You could either use virtual environments with VirtualBox or Vagrant or you can 
 
 #### How to install it?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_nvm.sh` and add the following content:
 
 ```bash
-$ nano install_nvm.sh
-
-File: install_nvm.sh
-
 #!/bin/bash
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash

@@ -2,15 +2,15 @@
 
 #### What is this?
 
-PostgreSQL is a ORDBMS ([Object-Relational](https://en.wikipedia.org/wiki/Object-relational_database) Database Management System).
+PostgreSQL is a ORDBMS([Object-Relational](https://en.wikipedia.org/wiki/Object-relational_database) Database Management System).
 
 #### What is this for?
 
-Storing and accessing data through the Structured Query Language (SQL).
+Storing and accessing data through the Structured Query Language(SQL).
 
 #### How to install it?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_postgresql.sh` and add the following content:
 
 ```bash
 #!/bin/bash
@@ -18,6 +18,12 @@ Create a `bash` file and add the following content:
 apt-get update
 apt-get -y install libpq-dev
 apt-get -y install postgresql
+```
+
+then run the file
+
+```bash
+$ sudo bash install_postgresql.sh
 ```
 
 #### Docs

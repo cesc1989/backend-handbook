@@ -22,13 +22,9 @@ Regarding RoR apps(which are the reason of this handbook), using Jenkins you cou
 
 #### How to install it?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_jenkins.sh` and add the following content:
 
 ```bash
-$ nano install_jenkins.sh
-
-File: install_jenkins.sh
-
 #!/bin/bash
 
 wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -

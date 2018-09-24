@@ -18,7 +18,7 @@ In the case of Passenger, its job is to handle business logic in applications co
 
 #### How to install it?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_passenger.sh` and add the following content:
 
 ```bash
 #!/bin/bash
@@ -30,6 +30,12 @@ sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger trusty m
 apt-get update
 
 apt-get install -y nginx-extras passenger
+```
+
+and run the script
+
+```bash
+$ sudo bash install_passenger.sh
 ```
 
 Depending on the version of passenger you installed you either need to:

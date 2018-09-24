@@ -2,7 +2,7 @@
 
 #### What is this?
 
-Easy, manage (install, uninstall, use) different ruby versions just a few commands away.
+Easy, manage(install, uninstall, use) different ruby versions just a few commands away.
 
 #### What is this for?
 
@@ -14,15 +14,11 @@ Most important thing about RVM is that rubies and gemsets are isolated from each
 
 #### How to install it?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_rvm.sh` and add the following content:
 
 > NOTE: do not run as sudo
 
 ```bash
-$ nano install_rvm.sh
-
-File: install_rvm.sh
-
 #!/bin/bash
 
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
@@ -43,13 +39,9 @@ After installing RVM, you can proceed to install ruby:
 
 > NOTE: you should change the version of ruby for the desired one
 
-You can run these commands one by one or place them in a file
+You can run these commands one by one or place them in a file. Before create a file `nano install_ruby.sh` and add the following
 
 ```bash
-$ nano install_ruby.sh
-
-File: install_ruby.sh
-
 #!/bin/bash
 
 echo "Sourcing RVM and reloading shell"

@@ -12,13 +12,9 @@ Others are just useful software that should be installed because some guides tel
 
 ### How to install them?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_basic_dependencies.sh` and add the following content:
 
 ```bash
-$ nano install_basic_dependencies.sh
-
-File: install_basic_dependencies.sh
-
 #!/bin/bash
 
 apt-get update

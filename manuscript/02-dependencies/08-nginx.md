@@ -15,13 +15,19 @@ Using nginx you can have many things that otherwise would require you to install
 
 #### How to install it?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_nginx.sh` and add the following content:
 
 ```bash
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get -y install nginx
+apt-get update
+apt-get -y install nginx
+```
+
+run the script to install it
+
+```bash
+$ sudo bash install_nginx.sh
 ```
 
 #### Docs

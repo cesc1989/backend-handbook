@@ -14,19 +14,22 @@ A non-root user is a system user that can log in to the server but still issue r
 
 #### Add a user
 
-```
+> NOTE: the `#` symbol denotes the commands are being run as root user, not as a system user.
+> NOTE: the `$` symbol denotes the commands are being as a system user.
+
+```bash
 # adduser [USERNAME]
 ```
 
 Give that user permissions to run `sudo` commands
 
-```
+```bash
 # usermod -a -G sudo [USERNAME]
 ```
 
 Example:
 
-```
+```bash
 # adduser deployer
 # usermod -a -G sudo deployer
 ```

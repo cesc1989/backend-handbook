@@ -12,11 +12,9 @@ You can also use a Redis as a cache or message broker, however, solutions like R
 
 #### How to install it?
 
-Create a `bash` file and add the following content:
+Create a file `nano install_redis.hs` and add the following content:
 
 ```bash
-$ nano install_redis.sh
-
 #!/bin/bash
 
 apt-get update
