@@ -1,11 +1,12 @@
-## Links, Resources
+## Links & Resources
 
-Some links that could be useful to further advance your Linux or backend tools/languages knowledge. The list can include repos, tutorials, gists, etc.
+Repos, tutorials, gists, etc.
 
 ### Linux
 
 - [Bash Scripting Tutorial](http://ryanstutorials.net/bash-scripting-tutorial/)
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+- [7 Security Measures to Protect Your Servers](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers)
 
 ### Server
 
@@ -28,3 +29,4 @@ Some links that could be useful to further advance your Linux or backend tools/l
 
 - [The Tao of Programming](http://www.mit.edu/~xela/tao.html)
 - [The Twelve Factor App](https://12factor.net/)
+- [Pets VS Cattle](https://www.engineyard.com/blog/pets-vs-cattle)
