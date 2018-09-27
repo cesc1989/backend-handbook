@@ -1,8 +1,6 @@
-frontmatter.txt
-
-introduction.md
-
-mainmatter.txt
+00-preface/01-frontmatter.txt
+00-preface/02-introduction.md
+00-preface/03-mainmatter.txt
 
 01-setup/01-main.md
 01-setup/02-linode.md
