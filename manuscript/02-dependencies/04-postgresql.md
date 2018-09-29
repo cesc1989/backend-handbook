@@ -16,11 +16,12 @@ Create a file `nano install_postgresql.sh` and add the following content:
 #!/bin/bash
 
 apt-get update
-apt-get -y install libpq-dev
-apt-get -y install postgresql
+apt-get -y install libpq-dev postgresql
 ```
 
-then run the file
+To save the file press `CTRL + O` and then to exit press `CTRL + X`.
+
+Then run it
 
 ```bash
 $ sudo bash install_postgresql.sh
