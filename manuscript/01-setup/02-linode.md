@@ -14,8 +14,8 @@ A non-root user is a system user that can log in to the server but in order to r
 
 #### Add a user
 
-> NOTE: the `#` symbol denotes the commands are being run as root user, not as a system user.
-> NOTE: the `$` symbol denotes the commands are being as a system user.
+> NOTE: the `#` symbol denotes the commands are run as root user, not as a system user.
+> NOTE: the `$` symbol denotes the commands are run as a system user.
 
 ```bash
 # adduser [USERNAME]
