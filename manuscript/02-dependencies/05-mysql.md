@@ -16,12 +16,13 @@ Create a file `nano install_mysql.sh` and add the following content:
 #!/bin/bash
 
 apt-get update
-apt-get -y install libmysqlclient-dev
-apt-get -y install mysql-server-5.5
+apt-get -y install libmysqlclient-dev mysql-server-5.5
 apt-get -f install mysql-server
 ```
 
-run the script
+To save the file press `CTRL + O` and then to exit press `CTRL + X`.
+
+Run the script
 
 ```bash
 $ sudo bash install_mysql.sh
