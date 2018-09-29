@@ -37,6 +37,8 @@ apt-get -y install \
   libsqlite3-dev
 ```
 
+To save the file press `CTRL + O` and then to exit press `CTRL + X`.
+
 and run it
 
 ```bash
@@ -44,8 +46,10 @@ $ sudo bash install_basic_dependencies.sh
 ```
 
 > **NOTE**
-> Separated the software list to install with continuation lines for readability.
+> The list of packages to install is splited with continuation lines for readability.
 >
 > `-y` flag is for accepting the prompt without needing the user to type y/N
 
 ### Docs
+
+See man pages for `apt-get` command `$ man apt-get` or [online](https://linux.die.net/man/8/apt-get)
