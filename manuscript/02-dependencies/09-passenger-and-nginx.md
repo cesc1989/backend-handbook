@@ -32,7 +32,9 @@ apt-get update
 apt-get install -y nginx-extras passenger
 ```
 
-and run the script
+save the file by pressing `CTRL + O` and then press `CTRL + X` to exit it.
+
+Now, run the script:
 
 ```bash
 $ sudo bash install_passenger.sh
