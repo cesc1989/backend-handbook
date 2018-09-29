@@ -31,13 +31,16 @@ sed -ie 's/# bind 127.0.0.1/bind 127.0.0.1/g' /etc/redis/6379.conf
 service redis_6379 restart
 ```
 
-then run the instructions in the file
+To save the file press `CTRL + O` and then to exit press `CTRL + X`, then run the instructions in the file
 
 ```bash
 $ sudo bash install_redis.sh
 ```
 
 and wait for redis to be installed on your machine.
+
+> **NOTE**
+> this way of install is called _from source_ and the main difference between this and installing from `apt-get` is getting up to date packages. Sometimes the apt packages are really outdated.
 
 #### Docs
 
