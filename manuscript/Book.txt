@@ -30,3 +30,6 @@
 04-additional/02-books.md
 04-additional/03-guides.md
 04-additional/04-links.md
+
+99-backmatter/01-backmatter.txt
+99-backmatter/02-errors.md
