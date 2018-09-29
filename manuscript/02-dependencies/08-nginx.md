@@ -24,7 +24,9 @@ apt-get update
 apt-get -y install nginx
 ```
 
-run the script to install it
+To save the file press `CTRL + O` and then to exit press `CTRL + X`.
+
+Finally, run the script to install it:
 
 ```bash
 $ sudo bash install_nginx.sh
