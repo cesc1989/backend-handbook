@@ -28,13 +28,15 @@ sudo make install
 sudo ldconfig /usr/local/lib
 ```
 
-run the installation script
+To save the file press `CTRL + O` and then to exit press `CTRL + X`.
 
-> NOTE: this is takes a lot of time to be completed. Be patient.
+Run the installation script
 
 ```bash
 $ sudo bash install_image_magick.sh
 ```
+
+> NOTE: this is takes a lot of time to be completed. Be patient.
 
 #### Docs
 

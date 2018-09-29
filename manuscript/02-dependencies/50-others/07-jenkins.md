@@ -33,7 +33,7 @@ apt-get update
 apt-get -y install jenkins
 ```
 
-and run it
+To save the file press `CTRL + O` and then to exit press `CTRL + X` nano. Now you can run it:
 
 ```bash
 $ sudo bash install_jenkins.sh

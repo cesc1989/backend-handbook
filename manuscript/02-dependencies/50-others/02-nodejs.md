@@ -24,7 +24,9 @@ apt-get update
 apt-get -y install nodejs
 ```
 
-run the file
+To save the file press `CTRL + O` and then to exit press `CTRL + X`.
+
+Run its instructions:
 
 ```bash
 $ sudo bash install_nodejs.sh

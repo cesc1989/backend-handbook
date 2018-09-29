@@ -25,7 +25,7 @@ wget http://download.gna.org/wkhtmltopdf/0.12/0.12.2/wkhtmltox-0.12.2_linux-trus
 dpkg -i wkhtmltox-0.12.2_linux-trusty-amd64.deb
 ```
 
-run the file
+Save the file press `CTRL + O` and then to exit press `CTRL + X`. Run the file:
 
 ```bash
 $ sudo bash install_wkhtmltopdf.sh

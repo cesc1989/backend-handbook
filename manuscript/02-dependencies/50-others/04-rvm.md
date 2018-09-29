@@ -25,7 +25,9 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 \curl -sSL https://get.rvm.io | bash -s stable
 ```
 
-run the file
+To save the file press `CTRL + O` and then to exit press `CTRL + X` nano editor.
+
+Now you can run the instructions:
 
 ```bash
 $ bash install_rvm.sh

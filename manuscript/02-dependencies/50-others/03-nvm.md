@@ -24,7 +24,7 @@ Create a file `nano install_nvm.sh` and add the following content:
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 ```
 
-then run the file
+To save the file press `CTRL + O` and then to exit press `CTRL + X`, then run the file:
 
 ```bash
 $ bash install_nvm.sh
