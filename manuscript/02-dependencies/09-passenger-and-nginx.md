@@ -18,7 +18,7 @@ In the case of Passenger, its job is to handle business logic in applications co
 
 #### How to install it?
 
-Create a file `nano install_passenger.sh` and add the following content:
+Create a file `$ nano install_passenger.sh` and add the following content:
 
 ```bash
 #!/bin/bash

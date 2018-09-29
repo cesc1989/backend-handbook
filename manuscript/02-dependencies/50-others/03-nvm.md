@@ -16,7 +16,7 @@ You could either use virtual environments with VirtualBox or Vagrant or you can 
 
 #### How to install it?
 
-Create a file `nano install_nvm.sh` and add the following content:
+Create a file `$ nano install_nvm.sh` and add the following content:
 
 ```bash
 #!/bin/bash

@@ -14,7 +14,7 @@ Because of it non-blocking and event-driven architecture real time communication
 
 #### How to install it?
 
-Create a file `nano install_nodejs.sh` and add the following content:
+Create a file `$ nano install_nodejs.sh` and add the following content:
 
 ```bash
 #!/bin/bash

@@ -12,7 +12,7 @@ Others are just useful software that should be installed because some guides tel
 
 ### How to install them?
 
-Create a file `nano install_basic_dependencies.sh` and add the following content:
+Create a file `$ nano install_basic_dependencies.sh` and add the following content:
 
 ```bash
 #!/bin/bash

@@ -10,7 +10,7 @@ When working with images in rails applications, you're mostly going to work usin
 
 #### How to install it?
 
-Create a file `nano install_image_magick.sh` and add the following content:
+Create a file `$ nano install_image_magick.sh` and add the following content:
 
 ```bash
 #!/bin/bash

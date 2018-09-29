@@ -14,7 +14,7 @@ Most important thing about RVM is that rubies and gemsets are isolated from each
 
 #### How to install it?
 
-Create a file `nano install_rvm.sh` and add the following content:
+Create a file `$ nano install_rvm.sh` and add the following content:
 
 > NOTE: do not run as sudo
 
@@ -41,7 +41,7 @@ After installing RVM, you can proceed to install ruby:
 
 > NOTE: you should change the version of ruby for the desired one
 
-You can run these commands one by one or place them in a file. Before create a file `nano install_ruby.sh` and add the following
+You can run these commands one by one or place them in a file. Before create a file `$ nano install_ruby.sh` and add the following
 
 ```bash
 #!/bin/bash

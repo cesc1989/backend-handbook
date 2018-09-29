@@ -14,7 +14,7 @@ Be aware WKHTMLTOPDF makes sense to be used when the info is, mainly, generated 
 
 #### How to install it?
 
-Create a file `nano install_wkhtmltopdf.sh` and add the following content:
+Create a file `$ nano install_wkhtmltopdf.sh` and add the following content:
 
 ```bash
 #!/bin/bash

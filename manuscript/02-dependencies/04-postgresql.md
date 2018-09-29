@@ -10,7 +10,7 @@ Storing and accessing data through the Structured Query Language(SQL).
 
 #### How to install it?
 
-Create a file `nano install_postgresql.sh` and add the following content:
+Create a file `$ nano install_postgresql.sh` and add the following content:
 
 ```bash
 #!/bin/bash

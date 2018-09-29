@@ -15,7 +15,7 @@ Using nginx you can have many things that otherwise would require you to install
 
 #### How to install it?
 
-Create a file `nano install_nginx.sh` and add the following content:
+Create a file `$ nano install_nginx.sh` and add the following content:
 
 ```bash
 #!/bin/bash
