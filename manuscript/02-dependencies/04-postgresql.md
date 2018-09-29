@@ -27,6 +27,10 @@ Then run it
 $ sudo bash install_postgresql.sh
 ```
 
+#### Verify
+
+You can check PostgreSQL is up and running by issuing `$ sudo service postgresql status` command in your terminal. It should return the version and port the database server is working.
+
 #### Docs
 
 A full list of PostgreSQL manuals can be found [their official site](https://www.postgresql.org/docs/manuals/).

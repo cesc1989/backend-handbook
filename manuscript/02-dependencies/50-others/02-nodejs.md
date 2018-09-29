@@ -32,6 +32,12 @@ Run its instructions:
 $ sudo bash install_nodejs.sh
 ```
 
+#### Verify Installation
+
+You can verify Node is installed with either `$ node -v` or `$ node --version`. The output should return a number which is the current Node version in your system.
+
+Additionally, you can check the installation path with `$ which node` or `$ command -v node`.
+
 #### Docs
 
 NodeJS documentation can be found in [the official site](https://nodejs.org/en/docs/)

@@ -32,6 +32,10 @@ Finally, run the script to install it:
 $ sudo bash install_nginx.sh
 ```
 
+#### Verify Installation
+
+If you need to verify Nginx is up, you can do it with `$ sudo service nginx status`.
+
 #### Docs
 
 Nginx documentation can be found [here](http://nginx.org/en/docs/).

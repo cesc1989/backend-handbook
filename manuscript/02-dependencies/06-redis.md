@@ -42,6 +42,11 @@ and wait for redis to be installed on your machine.
 > **NOTE**
 > this way of install is called _from source_ and the main difference between this and installing from `apt-get` is getting up to date packages. Sometimes the apt packages are really outdated.
 
+
+#### Verify Installation
+
+Check redis is running with `$ sudo service redis_6379 status`. It should something similar to _Redis is running (2820)_.
+
 #### Docs
 
 You can find all redis documentation in its [official page](http://redis.io/documentation).

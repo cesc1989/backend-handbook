@@ -25,23 +25,25 @@ wget http://download.gna.org/wkhtmltopdf/0.12/0.12.2/wkhtmltox-0.12.2_linux-trus
 dpkg -i wkhtmltox-0.12.2_linux-trusty-amd64.deb
 ```
 
+> **NOTE**: this script installs an specific version for this library.
+>
+> You can find more versions in the [downloads page](http://wkhtmltopdf.org/downloads.html)
+
 Save the file press `CTRL + O` and then to exit press `CTRL + X`. Run the file:
 
 ```bash
 $ sudo bash install_wkhtmltopdf.sh
 ```
 
-Finally, test it is working
+#### Verify Installation
+
+Test it is working
 
 ```bash
 wkhtmltopdf http://www.google.com google.pdf
 ```
 
 You should see a generated PDF file with the Google front page as content.
-
-> NOTE: this script installs an specific version for this library.
->
-> You can find more versions in the [downloads page](http://wkhtmltopdf.org/downloads.html)
 
 #### Docs
 

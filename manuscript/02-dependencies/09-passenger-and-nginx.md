@@ -46,6 +46,10 @@ A) uncomment lines `passenger_root` and `passenger_ruby` in `/etc/nginx/nginx.co
 
 B) Edit `/etc/nginx/nginx.conf` and uncomment `include /etc/nginx/passenger.conf;` by removing the `#` character in the beginning of the line and then restart nginx with `sudo service nginx restart`.
 
+#### Verify Installation
+
+One of the ways to verify Passenger is working is by taking a look to the processes list and check one called _watchdog_ is available.
+
 #### Docs
 
 See Phussion Passenger [extensive documentation](https://www.phusionpassenger.com/library/) for more help.

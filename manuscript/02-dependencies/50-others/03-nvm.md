@@ -30,7 +30,9 @@ To save the file press `CTRL + O` and then to exit press `CTRL + X`, then run th
 $ bash install_nvm.sh
 ```
 
-Easy peasy. You can verify NVM is installed with `command -v nvm` or `nvm` or `nvm --version`.
+#### Verify Install
+
+You can verify NVM is installed with `command -v nvm` or `nvm` or `nvm --version`.
 
 #### Docs
 

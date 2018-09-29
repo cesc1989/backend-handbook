@@ -68,6 +68,10 @@ run the instructions in the file
 $ bash install_ruby.sh
 ```
 
+#### Verify Installation
+
+Check RVM is installed with `$ rvm -v` or `$ rvm --version` and the install path with `$ which rvm`.
+
 #### Docs
 
 Find everything about RVM in its [official site](http://rvm.io/)
