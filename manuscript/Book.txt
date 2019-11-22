@@ -27,6 +27,10 @@
 02-dependencies/50-others/06-image-magick.md
 02-dependencies/50-others/07-jenkins.md
 
+03-configure-tools/01-main.md
+03-configure-tools/02-jenkins.md
+03-configure-tools/03-vagrant.md
+
 04-additional/01-main.md
 04-additional/02-books.md
 04-additional/03-guides.md
