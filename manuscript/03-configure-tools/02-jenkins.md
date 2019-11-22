@@ -63,7 +63,42 @@ For projects hosted on GitHub, installed the respective plugin. The [docs provid
 
 One of the most important benefits of using this plugin is being able to trigger actions in Jenkins whenever a new commit is made to a given branch.
 
-So one could setup a job to do a deployment whenever `master` branch gets new commits.
+So one could setup a job to do a deployment whenever `master` branch gets new commits. For this kind of setup you'd be better using a [GitHub Personal Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
+
+> Be mindful the token should have the scope `admin:org_hook`
+
+### For Ruby on Rails
+
+When using Jenkins or any other CI tool to run tests for Rails apps, there's one thing we need to be aware:
+
+**The Jenkins server need everything your Rails app needs to run.**
+
+Let's say your app in development needs the following list of dependencies:
+
+- RVM
+- Ruby
+- Bundler
+- A database: PostgreSQL or MySQL
+- NodeJS
+
+Then you'd have to install them all in the Jenkins server. Once they're available you can run commands for the Rails app in the Jenkins instance:
+
+```bash
+bundle install
+rails db:migrate
+rspec spec --fail-fast
+```
+
+These commands would go in a _build step_. If any of those commands fail, Jenkins will notify you and you should take actions to fix them.
+
+> [This article](https://ryaneschinger.com/blog/automated-rails-deployments-jenkins-capistrano/) shows how to do a setup that run tests and deploys using Capistrano. It's a bit  complex but can serve as an example.
+
+### Tips and Tricks
+
+- Restart your Jenkins server from the a web browser with `JENKINSURL/safeRestart`
+- Force restart making running jobs to be lost with `JENKINSURL/restart`
+- In the server you can restart it with `sudo service jenkins restart`
+- Jenkins execution logs normally should live in `/var/log/jenkins`
 
 ### Docs
 
