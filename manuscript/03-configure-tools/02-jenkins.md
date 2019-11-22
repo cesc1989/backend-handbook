@@ -55,6 +55,16 @@ Replace `CI.YOURCOMPANY.COM` for your server IP address or a valid subdomain.
 
 > Checkout other configs in this [gist](https://gist.github.com/VimleshS/2d98e355940e36f5d0c0f61751b3d280) and [this other](https://gist.github.com/rdegges/913102).
 
+### Plugins
+
+One of the most popular plugins in Jenkins is the GitHub one. Jenkins alone can't do much so installing plugins is a most to take the best out of Jenkins.
+
+For projects hosted on GitHub, installed the respective plugin. The [docs provide instructions](https://wiki.jenkins.io/display/JENKINS/Github+Plugin#GitHubPlugin-TriggerabuildwhenachangeispushedtoGitHub) on how to install and configure.
+
+One of the most important benefits of using this plugin is being able to trigger actions in Jenkins whenever a new commit is made to a given branch.
+
+So one could setup a job to do a deployment whenever `master` branch gets new commits.
+
 ### Docs
 
 - [Jenkins Official Docs](https://jenkins.io/doc/)
