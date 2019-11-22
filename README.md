@@ -1,10 +1,10 @@
 # Backend Handbook
 
-This handbook guides you in the process of provisioning and setting up Ubuntu(14.04+) servers. Although, born from doing configuration for Ruby on Rails applications, many parts of this document can be used for many other backend and servers related stuff.
+This handbook is a guide to provision and set up Ubuntu(14.04+) servers. Born from doing configuration for Ruby on Rails applications.
 
 You will find information to configure development tools such as Vagrant or Jenkins and also how to setup servers from scratch(those you get in Digital Ocean or Linode), creating system users, and more.
 
-You will find instructions for software, e.g.:
+The handbook provides instructions for software, e.g.:
 
 * Development libraries
 * PostgreSQL
@@ -27,3 +27,11 @@ After installing Pandoc, run this command:
 ```bash
 $ pandoc ./title.txt $(find ./manuscript/ -iname "*\.md" | sort -n) -o backend_handbook.epub
 ```
+
+## Branches Flow
+
+Branches `leanpub` and `master` are configured to be read by Leanpub to take the content with every commit.
+
+Branch `leanpub` is used to generate previews in Leanpub. Normally, would have more changes than `master`.
+
+In the other hand, `master` branch is the one where the actual publicated content goes.
