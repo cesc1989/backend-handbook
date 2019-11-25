@@ -1,7 +1,5 @@
 ### MySQL
 
-#### What is this?
-
 MySQL is a RDBMS(Relation Database Management System).
 
 #### What is this for?

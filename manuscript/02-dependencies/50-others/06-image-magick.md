@@ -1,7 +1,5 @@
 ### Image Magick
 
-#### What is this?
-
 Image magick is both a command line tool and a library to work and manipulate images.
 
 #### What is this for?

@@ -1,7 +1,5 @@
 ### PostgreSQL
 
-#### What is this?
-
 PostgreSQL is a ORDBMS([Object-Relational](https://en.wikipedia.org/wiki/Object-relational_database) Database Management System).
 
 #### What is this for?

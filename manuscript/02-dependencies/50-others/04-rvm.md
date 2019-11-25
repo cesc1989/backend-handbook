@@ -1,7 +1,5 @@
 ### RVM
 
-#### What is this?
-
 Easy, manage(install, uninstall, use) different ruby versions just a few commands away.
 
 #### What is this for?
