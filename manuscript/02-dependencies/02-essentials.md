@@ -1,7 +1,5 @@
 ## Library Essentials
 
-### What is this?
-
 This installation makes sure the machine has the basic software the rest of the programs you're going to install need. They provide libraries, commands or modules to those software.
 
 ### What are they for?

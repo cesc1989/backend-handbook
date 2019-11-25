@@ -1,7 +1,5 @@
 ### Nginx Web Server
 
-#### What is this?
-
 Nginx is a web server that happens to be as well a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), [load balancer](https://en.wikipedia.org/wiki/Load_balancer), and [HTTP cache](https://en.wikipedia.org/wiki/HTTP_cache).
 
 #### What is this for?

@@ -1,7 +1,5 @@
 ### Jenkins
 
-#### What is this?
-
 > Jenkins helps to automate the non-human part of the whole software development process, with now common things like continuous integration, but by further empowering teams to implement the technical part of a Continuous Delivery.
 >
 > [Wikipedia](https://en.wikipedia.org/wiki/Jenkins_(software))

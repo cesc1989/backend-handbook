@@ -1,7 +1,5 @@
 ### NodeJS
 
-#### What is this?
-
 NodeJS is an open source and cross platform JavaScript runtime environment for developing server tools and/or web applications.
 
 > Although Node.js is not a JavaScript framework, many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript.

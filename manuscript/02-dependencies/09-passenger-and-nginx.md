@@ -1,7 +1,5 @@
 ### Phusion Passenger
 
-#### What is this?
-
 > Passenger is an application server that allows you to securely operate web apps, microservices & APIs with outstanding reliability, performance and control. By acting as a process manager, reverse proxy and by providing operations tools, Passenger enables you to quickly launch and easily maintain Ruby, Node.js, Python and Meteor apps.
 >
 > [Phussion Passenger](https://www.phusionpassenger.com/)

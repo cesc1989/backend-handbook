@@ -1,7 +1,5 @@
 ### Redis
 
-#### What is this?
-
 Redis is an [in-memory](https://en.wikipedia.org/wiki/In-memory_database) [data structure](https://en.wikipedia.org/wiki/Data_structure) store that can be used as a database, cache and/or message broker.
 
 #### What is this for?

@@ -1,8 +1,4 @@
-### NVM
-
-Node Version Manager
-
-#### What is this?
+### NVM - Node Version Manager
 
 By using NVM you can manage(install, uninstall, use) different NodeJS versions just a few commands away.
 
