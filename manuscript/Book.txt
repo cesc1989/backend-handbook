@@ -36,5 +36,7 @@
 04-additional/03-guides.md
 04-additional/04-links.md
 
+05-brew-world/01-main.md
+
 99-backmatter/01-backmatter.txt
 99-backmatter/02-errors.md
