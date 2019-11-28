@@ -31,12 +31,12 @@
 03-configure-tools/02-jenkins.md
 03-configure-tools/03-vagrant.md
 
-04-additional/01-main.md
-04-additional/02-books.md
-04-additional/03-guides.md
-04-additional/04-links.md
+04-brew-world/01-main.md
 
-05-brew-world/01-main.md
+10-additional/01-main.md
+10-additional/02-books.md
+10-additional/03-guides.md
+10-additional/04-links.md
 
 99-backmatter/01-backmatter.txt
 99-backmatter/02-errors.md
